@@ -558,12 +558,12 @@ input[type="checkbox"] {
 .header .btn-outline-lg {
   padding: 1.625rem 1.625rem 1.625rem 1.625rem;
   border: none;
-  color: #dc3545;
+  color: #fff;
 }
 
 .header .btn-outline-lg:hover {
   background: transparent;
-  color: #9c9ead;
+  color: #dc3545;
   text-decoration: none;
 }
 
@@ -578,14 +578,15 @@ input[type="checkbox"] {
   margin-block-start: 1rem;
 }
 .row2 i {
-  color: #dc3545;
+  color: #ffffff;
   font-size: 14px;
   text-align: center;
   width: 33px;
   height: 33px;
   line-height: calc(33px - 4px);
-  border: 2px solid #dc3545;
+  border: 2px solid #ffffff;
   border-radius: 50%;
+  transition: transform 0.5s ease-in-out;
 }
 .row2 ul {
   list-style: none;
@@ -594,7 +595,9 @@ input[type="checkbox"] {
   justify-content: center;
   gap: 1rem;
 }
-.row2 a:hover {
+.row2 li:hover i {
+  color: #dc3545;
+  border-color: #dc3545;
   transform: rotate(360deg);
 }
 
