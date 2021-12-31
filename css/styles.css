@@ -249,17 +249,8 @@ a:hover {
 .blur-container {
   position: relative;
 }
-.blur {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 3rem;
-  position: absolute;
-  inset: 0;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.426);
-  backdrop-filter: blur(5px);
-  z-index: 1;
+.invisible {
+  display: none;
 }
 
 .form-group {
