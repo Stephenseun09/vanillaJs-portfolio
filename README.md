@@ -37,6 +37,7 @@ This is my portfolio
 
 ## Author
 
-- Website - [https://stephenseun09.github.io/My-Portfolio/]
-- Frontend Mentor - [@Stephenseun09]
-- Twitter - [@StephenASG]
+- Website - https://stephenseun09.github.io/My-Portfolio
+- Frontend Mentor - https://www.frontendmentor.io/profile/Stephenseun09
+- LinkedIn - https://www.linkedin.com/in/Stephenseun09
+- Twitter - https://www.twitter.com/StephenASG

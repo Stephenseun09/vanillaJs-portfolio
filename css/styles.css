@@ -13,7 +13,6 @@ Table Of Contents:
 - Footer 
 - Copyright
 - Back To Top Button
-- Extra Pages
 - Media Queries
 ******************************************/
 
@@ -46,7 +45,6 @@ h1 {
   color: #24262a;
   font-weight: 700;
   font-size: calc(38px + (60 - 38) * ((100vw - 300px) / (1700 - 300)));
-  /* line-height: 3.25rem; */
   font-family: "Poppins";
 }
 
@@ -90,6 +88,9 @@ h6 {
   font-family: "Poppins";
 }
 
+/**************************/
+/*     Utility Classes     */
+/**************************/
 .p-large {
   font-size: 1.125rem;
   line-height: 1.75rem;
