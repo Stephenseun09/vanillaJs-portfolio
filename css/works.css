@@ -1,0 +1,38 @@
+
+.li-space-lg li {
+    margin-bottom: 0.5rem;
+  }
+
+  /*****************/
+/*     Works     */
+/*****************/
+.basic-4 {
+  padding-bottom: 1rem;
+}
+
+.basic-4 .text-container {
+  margin-bottom: 4rem;
+}
+
+.basic-4 .image-container {
+  margin-bottom: 1rem;
+}
+
+/* Hover Animation */
+.basic-4 .image-container {
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.basic-4 .image-container img {
+  margin: 0;
+  transition: all 0.2s;
+}
+
+.basic-4 .image-container:hover img {
+  -moz-transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+/* end of hover animation */

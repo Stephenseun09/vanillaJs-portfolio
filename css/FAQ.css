@@ -1,0 +1,56 @@
+/*********************/
+/*     Questions     */
+/*********************/
+.accordion-1 {
+    padding-top: 7.75rem;
+    padding-bottom: 6.75rem;
+  }
+  
+  .accordion-1 .h2-heading {
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+  
+  .accordion-1 .card {
+    margin-bottom: 1.75rem;
+    border: none;
+  }
+  
+  .accordion-1 .card-header {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .accordion-1 .card button {
+    padding: 0;
+    color: #24262a;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-family: "Poppins";
+  }
+  
+  .accordion-1 .card button:hover {
+    text-decoration: none;
+  }
+  
+  .accordion-1 .card button:before {
+    float: left;
+    margin-right: 0.625rem;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
+    transition: all 0.2s;
+  }
+  
+  .accordion-1 .card button.collapsed:before {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  
+  .accordion-1 .card-body {
+    padding: 0.75rem 1.5rem 0.5rem 1.5rem;
+  }
+  

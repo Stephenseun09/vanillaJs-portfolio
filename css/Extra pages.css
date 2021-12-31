@@ -1,0 +1,88 @@
+
+/***********************/
+/*     Extra Pages     */
+/***********************/
+.ex-header {
+    padding-top: 8.5rem;
+    padding-bottom: 4rem;
+    background-color: #24262a;
+  }
+  
+  .ex-header h1 {
+    color: #ffffff;
+  }
+  
+  .ex-basic-1 .list-unstyled .fas {
+    font-size: 0.375rem;
+    line-height: 1.625rem;
+  }
+  
+  .ex-basic-1 .list-unstyled .media-body {
+    margin-left: 0.5rem;
+  }
+  
+  .ex-basic-1 .text-box {
+    padding: 1.25rem 1.25rem 0.5rem 1.25rem;
+    background-color: #f7f9fb;
+  }
+  
+  .ex-cards-1 .card {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .ex-cards-1 .card .fa-stack {
+    width: 2em;
+    font-size: 1.125rem;
+  }
+  
+  .ex-cards-1 .card .fa-stack-2x {
+    color: #dc3545;
+  }
+  
+  .ex-cards-1 .card .fa-stack-1x {
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 2.125rem;
+  }
+  
+  .ex-cards-1 .card .list-unstyled .media-body {
+    margin-left: 0.75rem;
+  }
+  
+  .ex-cards-1 .card .list-unstyled .media-body h5 {
+    margin-top: 0.125rem;
+    margin-bottom: 0.375rem;
+  }
+
+    /* Extra Pages */
+    .ex-basic-1 .text-box {
+      padding: 1.75rem 2rem 0.875rem 2rem;
+    }
+    /* end of extra pages */
+
+    /* media queries */
+  /* Extra Pages */
+  .ex-cards-1 .card {
+    display: inline-block;
+    width: 296px;
+    vertical-align: top;
+  }
+  .ex-cards-1 .card:nth-of-type(3n + 2) {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  /* end of extra pages */
+
+  
+/* media 1200 */
+  /* Extra Pages */
+  .ex-cards-1 .card {
+    width: 336px;
+  }
+
+  .ex-cards-1 .card:nth-of-type(3n + 2) {
+    margin-right: 2.875rem;
+    margin-left: 2.875rem;
+  }
+  /* end of extra pages */
