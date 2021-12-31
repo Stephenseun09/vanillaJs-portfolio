@@ -505,7 +505,9 @@ input[type="checkbox"] {
   background-size: cover;
   text-align: center;
 }
-
+.header .text-container {
+  overflow-x: hidden;
+}
 .header .h1-large {
   margin-bottom: 1.75rem;
   color: #ffffff;
@@ -546,6 +548,7 @@ input[type="checkbox"] {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-block-start: 1rem;
+  overflow-x: hidden;
 }
 .row2 i {
   color: #ffffff;
